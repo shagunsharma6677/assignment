@@ -13,6 +13,7 @@ const Hero = () => {
       <section class="text-gray-600 hero body-font">
         <div className="bg-img">
           <Header />
+
           <div class="container flex flex-wrap mt-16 mx-auto items-center">
             <div class="md:w-1/2   md:pr-12 md:py-8 mb-10 md:mb-0 pb-10">
               <Button className="btn" colorScheme="red" borderRadius={"3xl"}>
@@ -30,13 +31,11 @@ const Hero = () => {
               </p>
               <Button
                 border={"1px solid grey"}
-                color={"grey"}
-                colorScheme={"transparent"}
+                // color={"grey"}
+                // colorScheme={"transparent"}
                 borderRadius={"3xl"}
-                className="btn"
-                _hover={{
-                  bg: "white",
-                }}
+                className="btn hero-btn"
+               
               >
                 Show More
                 <ArrowRightIcon marginLeft={"3"} />

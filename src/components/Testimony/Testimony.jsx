@@ -8,14 +8,14 @@ const Testimony = () => {
       <section class="text-zinc-100 testimony body-font ">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap p-10 bg-zinc-950 rounded-2xl -m-4">
-            <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="lg:w-1/3 lg:mb-0  mb-6 p-4">
               <div class="h-full text-center">
                 {/* <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302"> */}
                 <FaEnvelopeOpenText
                   fontSize={"30px"}
-                  className="ml-auto mr-auto mt-3 mb-3"
+                  className="mt-3 mb-3 ml-auto mr-auto"
                 />
-                <Heading fontSize={"2xl"} as="h5">
+                <Heading  fontSize={"2xl"} as="h5">
                   Email Us
                 </Heading>
                 <p class="leading-relaxed m-3 text-sm">
@@ -23,7 +23,7 @@ const Testimony = () => {
                   partnership oppertunity.
                 </p>
                 <Button
-                  className="btn"
+                  className="testi-btn"
                   border={"1px solid white"}
                   colorScheme="black"
                 >
@@ -36,7 +36,7 @@ const Testimony = () => {
                 {/* <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/300x300"> */}
                 <FaPhoneAlt
                   fontSize={"30px"}
-                  className="ml-auto mr-auto mt-3 mb-3"
+                  className="mt-3 mb-3 ml-auto mr-auto"
                 />
                 <Heading fontSize={"2xl"} as="h5">
                   Call Us
@@ -46,7 +46,7 @@ const Testimony = () => {
                   help.
                 </p>
                 <Button
-                  className="btn"
+                  className=" testi-btn"
                   border={"1px solid white"}
                   colorScheme="black"
                 >
@@ -60,7 +60,7 @@ const Testimony = () => {
                 y-200 bg-gray-100" src="https://dummyimage.com/305x305"> */}
                 <FaMapMarkerAlt
                   fontSize={"30px"}
-                  className="ml-auto mr-auto mt-3 mb-3"
+                  className="mt-3 mb-3 ml-auto mr-auto"
                 />
                 <Heading as="h5" fontSize={"2xl"}>
                   Location
@@ -70,7 +70,7 @@ const Testimony = () => {
                   Telangana india Pin -566753
                 </p>
                 <Button
-                  className="btn"
+                  className="testi-btn"
                   border={"1px solid white"}
                   colorScheme="black"
                 >

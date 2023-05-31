@@ -98,8 +98,8 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem.href ?? "#"}
-                fontSize={"lg"}
-                fontWeight={500}
+                fontSize={"larger"}
+                fontWeight={600}
                 color={linkColor}
                 _hover={{
                   textDecoration: "none",
@@ -137,7 +137,7 @@ const DesktopNav = () => {
         py="10px"
         rounded="100px"
       >
-        Button
+        Sign up
       </Button>
     </Stack>
   );
@@ -256,7 +256,7 @@ const NAV_ITEMS = [
     label: "About Us",
   },
   {
-    label: "Facilities",
+    label: "Facility",
     href: "#",
   },
 ];
