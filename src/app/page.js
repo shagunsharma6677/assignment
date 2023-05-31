@@ -13,12 +13,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      {/* <Header /> */}
-
       <Hero />
       <Banner />
       <Dummy />
-      {/* <CarouselComp /> */}
       <Feature />
       <BgBanner />
       <Testimony />

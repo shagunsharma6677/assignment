@@ -5,26 +5,22 @@ import img from "../../../public/460x500.png";
 const Feature = () => {
   return (
     <div className="feature">
-      <section className="text-gray-600  body-font">
+      <section className=" body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <div className="lg:w-1/2 w-full border-2  bg-slate-400 mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            {/* <img
-              alt="feature"
-              className="object-cover object-center h-full w-full"
-              src={img}
-            /> */}
+          <div className="lg:w-1/2  w-full    mb-10 lg:mb-0 rounded-lg overflow-hidden">
+            <div className="feat-img-div"></div>
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-            <Heading>BE A PART OF WELLNESS COMMITNITY</Heading>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
-              accusamus voluptas corporis cumque, placeat obcaecati laboriosam
-              rerum culpa error iste tempora. Quia temporibus aliquid
-              reiciendis. Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Minima nisi quaerat, quisquam explicabo iste dolorum nihil?
-              Perspiciatis est consequuntur quos? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Nihil, nam ipsam. Architecto vero
-              facilis porro excepturi inventore unde impedit consequuntur.
+            <Heading fontSize={"50px"}>
+              BE A PART OF WELLNESS COMMITNITY
+            </Heading>
+            <p style={{ fontSize: "26px" }}>
+              The Heartfulness International Sports Center (HISC) was conceived
+              in 2020 as an integrated multi-sport facility to promote
+              excellence in sports, with the guidance of leading sports icons
+              such as Pullela Gopichand, P. V. Sindhu, and with a close
+              association of sporting inspirations like that of Havier Zanett,
+              Rohit Sharma, R. Ashwin, and Ravi Shashtri.
             </p>
             <Button
               colorScheme="orange"

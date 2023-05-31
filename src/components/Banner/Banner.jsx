@@ -6,11 +6,14 @@ const Banner = () => {
   return (
     <>
       <div className="text-center px-28 Banner py-28">
-        <Heading fontSize={"5xl"}>BEGIN YOUR TRANSFORMATION TODAY</Heading>
+        <Heading m={"4"} fontSize={"3.5vw"}>
+          BEGIN YOUR TRANSFORMATION TODAY
+        </Heading>
         <Box
           maxW={"80%"}
           fontSize={"lg"}
           m={"auto"}
+          className="banner-btn"
           color="rgba(105, 105, 105, 1)"
         >
           “Whether you are in sports or any other field, excellence is what you

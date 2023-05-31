@@ -8,7 +8,6 @@ import {
   Stack,
   Collapse,
   Icon,
-  Link,
   Popover,
   PopoverTrigger,
   PopoverContent,
@@ -16,6 +15,8 @@ import {
   useBreakpointValue,
   useDisclosure,
 } from "@chakra-ui/react";
+import Link from "next/link";
+
 import {
   HamburgerIcon,
   CloseIcon,
@@ -97,9 +98,8 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={2}
+                style={{ fontSize: "larger", fontWeight: "600" }}
                 href={navItem.href ?? "#"}
-                fontSize={"larger"}
-                fontWeight={600}
                 color={linkColor}
                 _hover={{
                   textDecoration: "none",
@@ -251,12 +251,14 @@ const MobileNavItem = ({ label, children, href }) => {
 const NAV_ITEMS = [
   {
     label: "Home",
+    href: "/",
   },
   {
     label: "About Us",
+    href: "/about",
   },
   {
     label: "Facility",
-    href: "#",
+    href: "/",
   },
 ];
