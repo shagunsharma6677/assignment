@@ -1,19 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-
-
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap");
 
 :root {
+}
+* {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Anton", "Poppins", sans-serif;
 }
 body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 3px solid black;
-  font-family: "Poppins", sans-serif;
+  /* border: 3px solid black; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Anton", "Poppins", sans-serif;
+
   background-color: #92bdeb;
 }
 
@@ -46,24 +50,28 @@ body {
   max-width: 100vw;
   margin: auto;
   min-height: 100vh;
+  border: 1px solid red;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
       90.03deg,
       #b4deff 2.38%,
       rgba(230, 242, 244, 0) 90.95%
     ),
-    url("../../public/hero.jfif");
+    url("../../public/hero.jfif"); */
+  background: url("../../public/hero.jfif");
   background-position: right;
-  background-size: 70%;
+  background-size: 75%;
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: top;
-  background-color: #b4deff;
- 
+  /* background-position-x: right; */
+  background-position-y: inherit;
+  /* background-color: #b4deff; */
+  background-color: #DBEBF8;
+
   /* background-position-y: 100px; */
 }
 .Banner {
-  background-color: #ebf5ff;
+  /* background-color: #ebf5ff; */
+  border: 1px solid yellow;
 }
 .css-nd8846 {
   align-items: center;
@@ -72,8 +80,11 @@ body {
 .carousel {
   height: 100vh;
   /* max-width: 1440px; */
+  width: 100vw;
   margin: auto;
-  z-index: 1000;
+  border: 1px solid blue;
+  /* z-index: 1000; */
+  /* background-color: rgb(30, 200, 143); */
 }
 .header {
   /* max-width: 1440px; */
@@ -96,7 +107,7 @@ body {
     ),
     url("../../public/banner2.png");
 
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .footer {
@@ -120,7 +131,7 @@ body {
 .car2 {
   width: 300px;
   position: relative;
-  
+
   top: 500px;
   right: 250px;
   z-index: 15;
@@ -134,9 +145,13 @@ body {
   top: 80px;
   z-index: 10;
 }
+.css-jv498s {
+  background-color: none;
+  box-shadow: none;
+}
 
 .car3 {
   width: 300px;
   position: absolute;
-  right: 400px;
+  right: 550px;
 }

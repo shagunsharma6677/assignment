@@ -1,7 +1,7 @@
 "use client";
 import Banner from "@/components/Banner/Banner";
 import BgBanner from "@/components/BgBanner/BgBanner";
-import Carousel from "@/components/Carousel/Carousel";
+import Carousel, { CarouselComp } from "@/components/Carousel/Carousel";
 import Feature from "@/components/Feature/Feature";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
@@ -13,9 +13,10 @@ export default function Home() {
   return (
     <>
       {/* <Header /> */}
+
       <Hero />
       <Banner />
-      <Carousel />
+      <CarouselComp />
       <Feature />
       <BgBanner />
       <Testimony />

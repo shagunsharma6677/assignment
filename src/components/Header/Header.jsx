@@ -22,6 +22,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+import Reveal from "../Reveal/Reveal";
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure();
@@ -62,7 +63,6 @@ export default function Header() {
             fontWeight={"700"}
             lineHeight={"28px"}
             color={useColorModeValue("red", "res")}
-            
           >
             HISC
           </Text>

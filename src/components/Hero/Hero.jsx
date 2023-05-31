@@ -3,10 +3,13 @@ import img from "../../../public/5494.jpg";
 import Header from "../Header/Header";
 import { Button, Heading } from "@chakra-ui/react";
 import { ArrowRightIcon } from "@chakra-ui/icons";
+import Reveal from "../Reveal/Reveal";
+import PreLoader from "../PreLoader/PreLoader";
 
 const Hero = () => {
   return (
     <>
+      {/* <PreLoader /> */}
       <section class="text-gray-600 hero body-font">
         <div className="bg-img">
           <Header />
